@@ -49,7 +49,7 @@ def washer_apply(washer, time, token):
         return response.read()
 
 if __name__ == "__main__":
-    tokens = logins("ryusm150", "@0816i7594")
+    tokens = logins("id", "pw")
     print(tokens)
     washer_info = washer_tables(tokens)
     washer = washer_info[0]['_id']
